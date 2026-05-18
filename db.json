@@ -1,0 +1,216 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Tecnologia"
+    },
+    {
+      "id": 2,
+      "nome": "Política"
+    },
+    {
+      "id": 3,
+      "nome": "Esportes"
+    },
+    {
+      "id": 4,
+      "nome": "Saúde"
+    },
+    {
+      "id": 5,
+      "nome": "Entretenimento"
+    }
+  ],
+  "cidades": [
+    {
+      "id": 0,
+      "Nome": "Contagem"
+    },
+    {
+      "id": 1,
+      "Nome": "Belo Horizonte"
+    },
+    {
+      "id": 2,
+      "Nome": "São Paulo"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 927202,
+      "nome": "Usuário Exemplo",
+      "email": "usuario@email.com"
+    }
+  ],
+  "configuracoesUsuario": [
+    {
+      "id": 1,
+      "usuarioId": 927202,
+      "temaEscuro": true,
+      "notificacoesAtivas": true,
+      "regiaoPadrao": "Minas Gerais",
+      "idioma": "pt-BR"
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Nova tecnologia revoluciona o mercado",
+      "resumo": "Uma nova inovação promete mudar a forma como usamos dispositivos.",
+      "conteudo": "Texto completo da notícia",
+      "imagem": "url",
+      "categoriaId": 1,
+      "dataPublicacao": "2026-04-20",
+      "autor": "João Silva"
+    },
+    {
+      "id": 2,
+      "titulo": "Notícia 1",
+      "resumo": "",
+      "conteudo": "",
+      "imagem": "",
+      "categoriaId": 2,
+      "dataPublicacao": "2026-04-20",
+      "autor": ""
+    },
+    {
+      "id": 3,
+      "titulo": "Notícia 2",
+      "resumo": "",
+      "conteudo": "",
+      "imagem": "",
+      "categoriaId": 3,
+      "dataPublicacao": "2026-04-19",
+      "autor": ""
+    }
+  ],
+  "alertas": [
+    {
+      "id": 1,
+      "tipo": "Chuva Forte",
+      "nivel": "Alto",
+      "cidadeId": 1,
+      "data": "2026-04-10",
+      "descricao": "Risco de alagamento em áreas baixas"
+    },
+    {
+      "id": 2,
+      "tipo": "Enchente",
+      "nivel": "Médio",
+      "cidadeId": 1,
+      "data": "2026-04-08",
+      "descricao": "Possibilidade de transbordamento de córregos"
+    },
+    {
+      "id": 3,
+      "tipo": "Chuva intensa",
+      "nivel": "Alto",
+      "cidadeId": 2,
+      "data": "2026-04-26",
+      "descricao": ""
+    },
+    {
+      "id": 4,
+      "tipo": "Enchente",
+      "nivel": "Médio",
+      "cidadeId": 3,
+      "data": "2026-04-25",
+      "descricao": ""
+    }
+  ],
+  "clima": [
+    {
+      "cidadeId": 0,
+      "Mes": {
+        "Janeiro": {
+          "Dia": {
+            "1": {
+              "Horario": {
+                "0000": {
+                  "Temperatura": 25,
+                  "Umidade": 25
+                },
+                "0100": {
+                  "Temperatura": 30,
+                  "Umidade": 20
+                }
+              }
+            },
+            "2": {
+              "Horario": {
+                "0000": {
+                  "Temperatura": 25,
+                  "Umidade": 25
+                },
+                "0100": {
+                  "Temperatura": 30,
+                  "Umidade": 20
+                }
+              }
+            }
+          }
+        },
+        "Fevereiro": {
+          "Dia": {
+            "1": {
+              "Temperatura": 25,
+              "Umidade": 25
+            },
+            "2": {
+              "Temperatura": 22,
+              "Umidade": 22
+            }
+          }
+        }
+      }
+    },
+    {
+      "cidadeId" : 1,
+      "Mes" : {
+         "Janeiro": {
+          "Dia": {
+            "1": {
+              "Horario": {
+                "0000": {
+                  "Temperatura": 12,
+                  "Umidade": 25
+                },
+                "0100": {
+                  "Temperatura": 30,
+                  "Umidade": 12
+                }
+              }
+            },
+            "2": {
+              "Horario": {
+                "0000": {
+                  "Temperatura": 25,
+                  "Umidade": 33
+                },
+                "0100": {
+                  "Temperatura": 30,
+                  "Umidade": 22
+                }
+              }
+            }
+          }
+        },
+        "Fevereiro": {
+          "Dia": {
+            "1": {
+              "Temperatura": 25,
+              "Umidade": 25
+            },
+            "2": {
+              "Temperatura": 22,
+              "Umidade": 22
+            }
+          }
+        }
+      }
+    }
+    
+
+    
+  ]
+}
